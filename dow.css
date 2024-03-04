@@ -1,0 +1,30 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #050505;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.form-all {
+    background-image: url(00.jpg);
+    background-size: cover;
+    background-size: 252px;
+    width: 420px;
+    border-radius: 14px;
+    padding: 30px 40px;
+    border: 6px solid rgb(158, 153, 151);
+    box-shadow: 0 8px 24px 0 #fff01b;
+ transition: all .3s ease-in-out;
+}
+
+.form-all h2 {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
